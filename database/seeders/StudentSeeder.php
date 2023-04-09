@@ -14,7 +14,6 @@ class StudentSeeder extends Seeder
      */
     public function run()
     {
-
         $data = [
             [
                 'mahasiswa_id' => 'fe530c73-ffb1-493d-b922-a2db0bf72170',
@@ -27,7 +26,6 @@ class StudentSeeder extends Seeder
                 'mahasiswa_dibuat_pada' => '2023-04-05 08:49:47',
                 'mahasiswa_diubah_pada' => '2023-04-09 13:37:14',
                 'mahasiswa_umur' => '18',
-
             ],
             [
                 'mahasiswa_id' => '98343059-5ceb-447f-99ee-891cc426b575',
@@ -40,7 +38,6 @@ class StudentSeeder extends Seeder
                 'mahasiswa_dibuat_pada' => '2023-04-09 13:37:43',
                 'mahasiswa_diubah_pada' => '2023-04-09 13:37:43',
                 'mahasiswa_umur' => '18',
-
             ],
         ];
 
