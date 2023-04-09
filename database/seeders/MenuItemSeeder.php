@@ -94,7 +94,7 @@ class MenuItemSeeder extends Seeder
                 'menu_item_induk' => '0',
                 'menu_item_urutan' => '6',
                 'menu_item_icon' => 'fas fa-graduation-cap',
-                'menu_item_menu_id' => 'fas fa-graduation-cap',
+                'menu_item_menu_id' => '568d3027-7a7d-4564-80be-dddb4fe36941',
                 'menu_item_kedalaman' => '0',
                 'menu_item_dibuat_pada' => '2023-04-04 06:35:06',
                 'menu_item_diubah_pada' => '2023-04-09 13:38:29',

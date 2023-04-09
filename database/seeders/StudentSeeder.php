@@ -14,7 +14,6 @@ class StudentSeeder extends Seeder
      */
     public function run()
     {
-
         $data = [
             [
                 'mahasiswa_id' => 'fe530c73-ffb1-493d-b922-a2db0bf72170',
