@@ -87,6 +87,18 @@ class MenuItemSeeder extends Seeder
                 'menu_item_dibuat_pada' => '2023-02-17 03:15:18',
                 'menu_item_diubah_pada' => '2023-02-24 09:30:48',
             ],
+            [
+                'menu_item_id' => '00a5606a-1c71-47ee-826c-127ab09a8cb7',
+                'menu_item_label' => 'Mahasiswa',
+                'menu_item_tautan' => '/backoffice/mahasiswa',
+                'menu_item_induk' => '0',
+                'menu_item_urutan' => '6',
+                'menu_item_icon' => 'fas fa-graduation-cap',
+                'menu_item_menu_id' => 'fas fa-graduation-cap',
+                'menu_item_kedalaman' => '0',
+                'menu_item_dibuat_pada' => '2023-04-04 06:35:06',
+                'menu_item_diubah_pada' => '2023-04-09 13:38:29',
+            ],
         ];
 
         DB::table('menu_item')->insert($data);
