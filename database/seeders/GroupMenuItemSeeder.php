@@ -71,6 +71,14 @@ class GroupMenuItemSeeder extends Seeder
                 'grup_menu_item_ubah' => 'ya',
                 'grup_menu_item_hapus' => 'ya'
             ],
+            [
+                'grup_menu_item_id' => 'cd7454bc-c81c-4b4d-8d9d-4278f320a4ba',
+                'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
+                'grup_menu_item_menu_item_id' => '5dd20b71-dd7b-47dd-8adc-dcfff63356c1',
+                'grup_menu_item_tambah' => 'ya',
+                'grup_menu_item_ubah' => 'ya',
+                'grup_menu_item_hapus' => 'ya'
+            ],
         ];
 
         DB::table('grup_menu_item')->insert($data);

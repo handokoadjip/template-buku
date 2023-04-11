@@ -25,5 +25,6 @@ require __DIR__ . '/backoffice/dashboard.php';
 require __DIR__ . '/backoffice/work-unit.php';
 require __DIR__ . '/backoffice/book.php';
 require __DIR__ . '/backoffice/student.php';
+require __DIR__ . '/backoffice/lecturer.php';
 
 require __DIR__ . '/auth.php';

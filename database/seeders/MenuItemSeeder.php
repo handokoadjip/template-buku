@@ -99,6 +99,18 @@ class MenuItemSeeder extends Seeder
                 'menu_item_dibuat_pada' => '2023-04-04 06:35:06',
                 'menu_item_diubah_pada' => '2023-04-09 13:38:29',
             ],
+            [
+                'menu_item_id' => '5dd20b71-dd7b-47dd-8adc-dcfff63356c1',
+                'menu_item_label' => 'Dosen',
+                'menu_item_tautan' => '/backoffice/dosen',
+                'menu_item_induk' => '0',
+                'menu_item_urutan' => '7',
+                'menu_item_icon' => 'fas fa-plane',
+                'menu_item_menu_id' => '568d3027-7a7d-4564-80be-dddb4fe36941',
+                'menu_item_kedalaman' => '0',
+                'menu_item_dibuat_pada' => '2023-04-11 03:48:50',
+                'menu_item_diubah_pada' => '2023-04-11 03:48:50',
+            ],
         ];
 
         DB::table('menu_item')->insert($data);
